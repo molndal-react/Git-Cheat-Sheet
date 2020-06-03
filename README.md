@@ -12,7 +12,7 @@ Add a remote called "origin"
 
 Add all untracked changed files to staging, ready to be committed
     
-    # git add -a
+    # git add .
 
 Commit with a message
     
@@ -82,7 +82,7 @@ If conflicts occurs then checkout to your branch and do following steps
 
     $ git pull origin develop --rebase
     $ Fix conflicts and save
-    $ git add -a
+    $ git add .
     $ git commit -m "message"
     $ git rebase --continue
     $ If rebase went through then continue with
