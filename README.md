@@ -83,7 +83,7 @@ If conflicts occurs then checkout to your branch and do following steps
     $ git pull origin develop --rebase
     $ Fix conflicts and save
     $ git add -a
-    $ git commit -m "updated my package"
+    $ git commit -m "message"
     $ git rebase --continue
     $ If rebase went through then continue with
     $ git push -f
